@@ -1,31 +1,25 @@
 .container{
-    background-color: red;
+    background-image: url(/img/landingpage.png);
+    
+    background-size: 100%;
     width: 100%;
-    max-width: 1800px;
     display: flex;
     justify-content: center;
 }
 .box_center{
-   
     width: 100%;
-    margin: 16px;
-
-
 }
 .background_image{
     
     width: 100%;
-    height: 820px;
+    height: 737px;
 }
 .flex_landingpage{
     width: 100%;
-    height: 820px;
+    height: 737px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: green;
-
-    
 }
 h1{
     font-family: 'Josefin Sans', sans-serif;
@@ -56,7 +50,7 @@ p{
      margin-top: 48px;
  }
  .placeholer{
-    font-family: Josefin Sans;
+    font-family: 'Josefin Sans', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -125,8 +119,56 @@ p{
     width: 123px;
     
 }
+
 .navbar{
-    width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 83px;
+        background: #5474FD;
+        align-items: baseline;
+}
+
+.navbar_list{
+    display: flex;
+    width: 50%;
     height: 83px;
-    background: #5474FD;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Aleo', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+li{
+    list-style-type: none;
+    margin: 12px;
+}
+
+h2{
+    font-style: normal;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 50%;
+    justify-content: center;
+    display: flex;   
+}
+.background_image2{
+    background-image: url(/img/2ndbigpic.png);
+   
+   width: 100%;
+   height: 685px;
 }
