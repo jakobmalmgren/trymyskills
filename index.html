@@ -10,8 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@1,300&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/c9c615f772.js" crossorigin="anonymous"></script>
-    
-    <!-- pil fonts...fontstyle...ikoner... också quote tecknet nere me ikon. -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
 </head>
 <body>
 
@@ -40,11 +40,15 @@
 
                                 <div class="form">
                                     <form>
-                                        <input type= " text" name="text" placeholder="Search Your Travel Destination" class="placeholder" >
+                                        <input type= " text" name="text" placeholder="Search Your Travel Destination" class="placeholder" maxlength="30">
+                    
                                     </form>
+                                    
+                                    <button class="btn">search <img src="/img/Combined shape 1406.svg" alt="zoomtool"></button> 
                                 </div> 
+                        
 
-                                <button class="btn">search <img src="/img/Combined shape 1406.svg" alt=""></button>
+                              
                                                         
                             </div>
 
@@ -54,7 +58,7 @@
                                     <p>
                                         Scroll Down 
                                     </p>
-                                    <img src="/img/arrow.svg" alt="">
+                                    <img src="/img/arrow.svg" class="animate__animated animate__bounce" alt=" bouncing arrow">
                                 </div>
                             </div>
                     </main>
@@ -67,10 +71,10 @@
                                 Bhromaon
                             </h2>
                             <ul class="navbar_list">
-                                <li> <a href="">who we are</a></li>
-                                <li> <a href="">what we do</a></li>
-                                <li> <a href="">travel with us</a></li>
-                                <li> <a href="">contact us</a></li>
+                                <li> <a href= "#whoweare">who we are</a></li>
+                                <li> <a href="#what">what we do</a></li>
+                                <li> <a href="#linktravelwithus">travel with us</a></li>
+                                <li> <a href="#contact">contact us</a></li>
                             </ul>           
                         </div>
 
@@ -95,7 +99,7 @@
 
                     <div class="main_content_text">
 
-                            <h3>Why Choose Us</h3>
+                            <h3 id="what">Why Choose Us</h3>
 
                             <p class="p_secondpage">
                                 Tion and dislike men who are so beguiled and
@@ -133,26 +137,34 @@
     </div>
 </div>
 
+<div id="contact"></div>
+
 <div class="footer_page2">
+    
 
     <div class="wrapper_footer_page2">
 
+        <div class="pic">
+            <img src="/img/bow.png" alt="">
+        </div>
+        
+     
         <div class="flex_icons">
-
-            <div class="searchplaces"> <img src="/img/focus.png" alt="focus"> </div>
+            <div class="searchplaces"> <img src="/img/focus.png" alt="focus"></div>
             <h2 class="icontext">Search Places</h2>
         </div>
+
+    
         <div class="flex_icons">
-         
-            <div class="selectplaces" > <img src="/img/check.png" alt=""></div>
+            <div class="selectplaces" ><img src="/img/check.png" alt="checkbox"></div>
             <h2 class="icontext">Select Places</h2>
         </div>
         
         <div class="flex_icons">
-
-            <div class="bookandenjoy"> <img src="/img/thumb.png" alt=""></div>
+            <div class="bookandenjoy"><img src="/img/thumb.png" alt="thumbsup"></div>
             <h2 class="icontext">Book & Enjoy</h2>
         </div>
+    
 
     </div>
 </div>
@@ -181,10 +193,14 @@
         
     </div>
 </div>
+
 <div class="flex_container3">
+
     <div class="container4">
 
         <div class="box_center4">
+
+            <div id="linktravelwithus"></div>
 
             <div class="content_page3">
                 <p class="paragraf_spain">spain</p>
@@ -249,33 +265,31 @@
 
 </div>
 
+<div id="whoweare"></div>
+
 <div class="container6">
 
     
 
     <div class="footer_samsumon">
-        
-        <div class="wrapp">
 
+        
+        
             <h1>Bhromaon</h1>
+
             <p class="p_samsumon">Safe Travel Anywhere</p>
 
             <div class="wrap_icons">
-                <div class="margin">    <i class="fab fa-facebook-f"></i> </div>
-                <div class="margin">  <i class="fab fa-twitter"></i> </div>
-                <div class="margin">  <span><i class="fab fa-linkedin"></i></span> </div>
-                <div class="margin">  <i class="fab fa-youtube"> </i> </div>
-                <div class="margin">  <i class="fab fa-pinterest-square"></i> </div>
-
-             
-               
-               
-               
+                <div class="margin"><i class="fab fa-facebook-f"></i> </div>
+               <div class="margin"><i class="fab fa-twitter"></i> </div>
+                <div class="margin"><span><i class="fab fa-linkedin"></i></span> </div>
+                <div class="margin"><i class="fab fa-youtube"> </i> </div>
+                <div class="margin"><i class="fab fa-pinterest-square"></i> </div>
+            
             </div>
         
-        
-   </div>
-</div>
+    </div>
+
 
 </div>
 
